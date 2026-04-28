@@ -1,0 +1,220 @@
+(footprint "Texas_PicoStar_TMP118_P0.3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/tmp114.pdf")
+	(tags "BGA 4 0.4 PicoStar")
+	(property "Reference" "REF**"
+		(at 0 -1.9304 0)
+		(layer "F.SilkS")
+		(uuid "f84a728d-302c-4268-923a-a755dba5458b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_PicoStar_TMP118_P0.3mm"
+		(at 0 1.379 0)
+		(layer "F.Fab")
+		(uuid "7e87d1f6-b228-491c-9417-b1778283e1f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e86b934-13cd-447b-b226-ee12fd0a7156")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cfe7d15-e74e-4370-b066-6c368f9bf56c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.575 0.575)
+		(end -0.575 -0.3425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b8efd2c-ab5c-4904-8fdf-0b09d939e7d5")
+	)
+	(fp_line
+		(start -0.3425 -0.575)
+		(end 0.575 -0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a003e84-3112-4b28-94d4-a9b9133c43e2")
+	)
+	(fp_line
+		(start 0.575 -0.575)
+		(end 0.575 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1689c8cb-62ef-4f02-98e9-7e8d945a6cfb")
+	)
+	(fp_line
+		(start 0.575 0.575)
+		(end -0.575 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3a9c686-2666-49a1-b38c-dba320d66864")
+	)
+	(fp_poly
+		(pts
+			(xy -0.575 -0.575) (xy -1.075 -0.575) (xy -0.575 -1.075)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2492f9a7-dfab-458c-9921-58c4959a0d17")
+	)
+	(fp_rect
+		(start -1.38 -1.38)
+		(end 1.38 1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8cf2cddb-396d-45d2-8292-9487b510646e")
+	)
+	(fp_line
+		(start -0.379 -0.1895)
+		(end -0.1895 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "245bde00-d24c-469f-a48c-405829850521")
+	)
+	(fp_line
+		(start -0.379 0.379)
+		(end -0.379 -0.1895)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "060b1e41-72d2-4a62-807a-5887ff0a4fe1")
+	)
+	(fp_line
+		(start -0.1895 -0.379)
+		(end 0.379 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0706db4-fde9-4f07-8cca-f3c8395a24d9")
+	)
+	(fp_line
+		(start 0.379 -0.379)
+		(end 0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12a141ad-4bca-417e-ae42-bcf3df3d68e7")
+	)
+	(fp_line
+		(start 0.379 0.379)
+		(end -0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a7d5c01-8d9b-4308-a01c-5fccefa03c06")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3435e437-59a4-41cd-8564-d9733d009103")
+		(effects
+			(font
+				(size 0.18 0.18)
+				(thickness 0.027)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.15 -0.15)
+		(size 0.16 0.16)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e92ad905-bff6-49b0-b36a-c33733ba1482")
+	)
+	(pad "A2" smd circle
+		(at 0.15 -0.15)
+		(size 0.16 0.16)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "257f01c1-a515-4ffe-a569-8ae7bc9f7011")
+	)
+	(pad "B1" smd circle
+		(at -0.15 0.15)
+		(size 0.16 0.16)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32f419fa-cda3-4582-a9d8-e3fcfa61bf97")
+	)
+	(pad "B2" smd circle
+		(at 0.15 0.15)
+		(size 0.16 0.16)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "665c70f4-fd9e-4c9b-85d2-b672eae1c022")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Ashwin/OneDrive - InsightSilica Inc/Desktop/HW/02_V1.5.0_R1/03_CAD/TMP118-BodyPocket.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
